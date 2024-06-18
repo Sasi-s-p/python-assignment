@@ -4,7 +4,6 @@
 #**ST~SUPERMARKET**
 import datetime
 def main():
-    import newmail()
     print("***ST~SuperMarket***")
     print("SECTIONS\n1.groceries\n2.vegetables\n3.fruit")
     
@@ -18,6 +17,7 @@ def main():
             sum2=fruit.fruit()        
     except ValueError:
         print("HEllO type number only ex:1 2 3")
+    import newmail    
     return sum1+sum2
     newmail.send_email()
  #   f.write(f"sub Total={return}")
